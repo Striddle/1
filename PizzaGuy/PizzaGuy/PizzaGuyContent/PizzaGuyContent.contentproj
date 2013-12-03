@@ -59,13 +59,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Map1.tide">
-      <Name>Map1</Name>
-      <Importer>TideImporter</Importer>
-      <Processor>TideProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="breakout.png">
       <Name>breakout</Name>
       <Importer>TextureImporter</Importer>
@@ -77,6 +70,13 @@
       <Name>introMusic</Name>
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Map1.tide">
+      <Name>Map1</Name>
+      <Importer>TideImporter</Importer>
+      <Processor>TideProcessor</Processor>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
